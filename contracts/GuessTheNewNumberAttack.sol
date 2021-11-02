@@ -4,7 +4,7 @@ interface GuessTheNewNumberChallenge {
     function guess(uint8 n) external payable;
 }
 
-contract GuessTheNewNumber {
+contract GuessTheNewNumberAttack {
     address private constant challengeAddress =
         0x08962e45b45153c3365592040E50aCa99370d62c;
 

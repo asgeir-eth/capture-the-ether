@@ -5,7 +5,7 @@ const predictTheFutureAttackAddress =
 
 async function main() {
   const ContractFactory = await ethers.getContractFactory(
-    "PredictTheFutureAttacker"
+    "PredictTheFutureAttack"
   );
   const contract = await ContractFactory.attach(predictTheFutureAttackAddress);
 

@@ -7,7 +7,7 @@ interface PredictTheFutureChallenge {
     function settle() external;
 }
 
-contract PredictTheFutureAttacker {
+contract PredictTheFutureAttack {
     address private constant challengeAddress =
         0xbeb0E42bcDFFad24d45c329FA5793986d8A2c676;
     uint8 private constant guess = 5;
